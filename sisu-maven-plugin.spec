@@ -2,7 +2,7 @@
 
 Name:           sisu-maven-plugin
 Version:        1.1
-Release:        7%{?dist}
+Release:        8%{?dist}
 Summary:        Sisu plugin for Apache Maven
 BuildArch:      noarch
 Group:          Development/Tools
@@ -50,6 +50,9 @@ This package provides %{summary}.
 
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1.1-8
+- Mass rebuild 2013-12-27
+
 * Fri Jun 28 2013 Mikolaj Izdebski <mizdebsk@redhat.com> - 1.1-7
 - Rebuild to regenerate API documentation
 - Resolves: CVE-2013-1571
